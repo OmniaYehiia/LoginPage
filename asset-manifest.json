@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LoginPage/static/css/main.2dc0c622.css",
+    "main.js": "/LoginPage/static/js/main.220c63b3.js",
+    "static/js/453.29498a9c.chunk.js": "/LoginPage/static/js/453.29498a9c.chunk.js",
+    "static/media/apple.svg": "/LoginPage/static/media/apple.213914f4d2dc12c25300c5e222a16062.svg",
+    "static/media/google.svg": "/LoginPage/static/media/google.e9a9751cede23097df5da534f5ff1d65.svg",
+    "index.html": "/LoginPage/index.html",
+    "main.2dc0c622.css.map": "/LoginPage/static/css/main.2dc0c622.css.map",
+    "main.220c63b3.js.map": "/LoginPage/static/js/main.220c63b3.js.map",
+    "453.29498a9c.chunk.js.map": "/LoginPage/static/js/453.29498a9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dc0c622.css",
+    "static/js/main.220c63b3.js"
+  ]
+}
