@@ -1,4 +1,4 @@
-#Login Page
+# LoginPage
 
 A simple and responsive login page built using React.js. The design features social login options and a clean, modern UI.
 
