@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import SocialLogin from './Components/SocialLogin';
+import InputField from './Components/inputField';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="login-container">
+      <h2 className="form-title">Log in with</h2>
+      <SocialLogin />
+      <p className='separator'>
+        <span>or</span>
+      </p>
+      <form action="#" className="login-form">
+        <InputField type='email' placeholder='Email' icon='mail' />
+        <InputField type='password' placeholder='Password' icon='lock' />
+        <a href="/forgot-password" className='forgot-password'>Forgot password?</a>
+        <button type='submit' className='login-btn'>Log in</button>
+      </form>
+      <p className="signup-prompt">
+        Don't have an account? <a href="/signup" className="signup-link">Sign up here</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
